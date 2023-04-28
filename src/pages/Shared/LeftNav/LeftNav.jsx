@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import OtherStories from '../../News/OtherStories/OtherStories';
 
 const LeftNav = () => {
 
@@ -24,6 +25,7 @@ const LeftNav = () => {
                     </p>)
                 }
             </div>
+            <OtherStories></OtherStories>
         </div>
     );
 };
